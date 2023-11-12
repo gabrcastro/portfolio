@@ -1,7 +1,8 @@
 import Nav from "../header/nav";
-import About from "./about";
-import Experiences from "./experiences";
-import Projects from "./projects";
+import About from "./pages/about";
+import Education from "./pages/education";
+import Experiences from "./pages/experiences";
+import Projects from "./pages/projects";
 
 export default function Content() {
   return(
@@ -11,6 +12,9 @@ export default function Content() {
       </div>
       <div className="">
         <Experiences />
+      </div>
+      <div className="">
+        <Education />
       </div>
       <div className="">
         <Projects />

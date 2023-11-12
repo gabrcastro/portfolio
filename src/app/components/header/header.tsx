@@ -7,17 +7,7 @@ export default function Header() {
   return (
     <div className="w-full h-[100%] py-10 pl-24">
       <div className="flex flex-col justify-between h-full items-start">
-        {/* <Image
-          className="rounded-full border-1 border-gray-400 mb-10"
-          src="/me.png"
-          alt="Me"
-          width={150}
-          height={150}
-          style={{
-            objectFit: "contain",
-          }}
-        /> */}
-
+       
         <div className="flex flex-col">
           <p className="font-light text-base text-gray-50 mb-3">Olá, eu sou</p>
 
