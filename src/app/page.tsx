@@ -1,4 +1,4 @@
-import { Source_Code_Pro } from 'next/font/google';
+import { Source_Code_Pro } from "next/font/google";
 
 import Content from "./components/content/content";
 import Header from "./components/header/header";
@@ -10,15 +10,19 @@ import Header from "./components/header/header";
         </p> */
 }
 
-const sourceCodePro = Source_Code_Pro({ subsets: ['latin'] })
+const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main className={sourceCodePro.className}>
-      <div className="flex w-screen h-screen flex-row justify-between bg-gradient-to-tr from-slate-900 to-slate-950 bg-opacity-50 p-10">
-        <Header />
-        <Content />
+      <div className="flex w-screen h-screen flex-row justify-between bg-gradient-to-tr from-gray-950 from-60% to-indigo-950 via-30% bg-opacity-50">
+        <div className="w-2/5">
+          <Header />
         </div>
+        <div className="w-3/5">
+          <Content />
+        </div>
+      </div>
     </main>
   );
 }

@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Social from "../social/social";
 import Nav from "./nav";
+import Languages from "../languages/languages";
 
 export default function Header() {
   return (
-    <div className="w-1/2 h-[100%]">
+    <div className="w-full h-[100%] py-10 pl-24">
       <div className="flex flex-col justify-between h-full items-start">
         {/* <Image
           className="rounded-full border-1 border-gray-400 mb-10"
@@ -32,8 +33,9 @@ export default function Header() {
           <Nav />
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10 flex flex-row items-center">
           <Social />
+          <Languages />
         </div>
       </div>
     </div>

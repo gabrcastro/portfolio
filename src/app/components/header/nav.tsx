@@ -11,12 +11,19 @@ export default function Nav() {
       </div>
 
       <div className="flex flex-row items-center mb-3 hover:cursor-pointer hover:opacity-75">
-        {/* <span className="mr-4">&gt;_</span> */}
-        <p>Experiência</p>
+        <span className="mr-4">&gt;_</span>
+        <div className="flex flex-col items-start">
+          <p>Experiência</p>
+          <div className="w-32 h-[1.5px] bg-slate-400"/>
+        </div>
       </div>
-      <div className="flex flex-row items-center hover:cursor-pointer hover:opacity-75">
+
+      <div className="flex flex-row items-center mb-3 hover:cursor-not-allowed opacity-50">
         {/* <span className="mr-4">&gt;_</span> */}
-        <p>Projetos</p>
+        <div className="flex flex-col items-start">
+          <p>Projetos</p>
+          {/* <div className="w-32 h-[1.5px] bg-slate-400"/> */}
+        </div>
       </div>
     </div>
   );
