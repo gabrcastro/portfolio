@@ -1,6 +1,7 @@
 export const ptBR = {
   site: {
-    language: "pt-BR",
+    en: "en-US",
+    pt: "pt-BR",
     name: "Gabriel Castro",
     description: "Vazio",
   },
@@ -72,20 +73,20 @@ export const ptBR = {
 
   education: {
     last: {
-        title: "Análise de Dados",
-        type: "Pós-Graduação"
+      title: "Análise de Dados",
+      type: "Pós-Graduação",
     },
     second: {
-        title: "Tecnologias e Inovações Web",
-        type: "Pós-Graduação"
+      title: "Tecnologias e Inovações Web",
+      type: "Pós-Graduação",
     },
     first: {
-        title: "Análise e Desenvolvimento de Sistemas",
-        type: "Graduação"
-    }
+      title: "Análise e Desenvolvimento de Sistemas",
+      type: "Graduação",
+    },
   },
 
   projects: {
     empty: "EM DESENVOLVIMENTO",
-  }
+  },
 };

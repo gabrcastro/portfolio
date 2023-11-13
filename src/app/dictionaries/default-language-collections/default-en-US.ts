@@ -1,6 +1,7 @@
 export const enUS = {
     site: {
-        language: "en-US",
+        en: "en-US",
+        pt: "pt-BR",
         name: "Gabriel Castro",
         description: "Empty"
     },
