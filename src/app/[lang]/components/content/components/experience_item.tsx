@@ -19,7 +19,7 @@ export default function ExperienceItem(params: ExperienceItemType) {
             <p className="text-base text-gray-500 mt-1 mb-2">{params.position}</p>
 
             {params.description.map((item, index) => (
-                <p key={index} className="text-base text-gray-100 w-max flex-wrap">{item.toString()}</p>
+                <p key={index} className="break-normal text-base text-gray-100">{item.toString()}</p>
             ))}
 
             <div className="flex gap-2 flex-wrap mt-5">
