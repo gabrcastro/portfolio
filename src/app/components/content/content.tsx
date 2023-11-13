@@ -6,17 +6,17 @@ import Projects from "./pages/projects";
 
 export default function Content() {
   return(
-    <div className="w-full h-full overflow-y-scroll flex flex-col px-20 pr-24">
-      <div className="">
+    <div className="w-full h-full overflow-y-scroll scrollbar-hide flex flex-col px-20 pr-24">
+      <div className="" id="about">
         <About />
       </div>
-      <div className="">
+      <div className="" id="experiences">
         <Experiences />
       </div>
-      <div className="">
+      <div className="" id="education">
         <Education />
       </div>
-      <div className="">
+      <div className="" id="projects">
         <Projects />
       </div>
     </div>
