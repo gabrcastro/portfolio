@@ -10,19 +10,19 @@ export default function Social() {
   return(
     <div className="flex flex-row justify-between items-center">
       <a href={instagramLink} target="_blank">
-        <Instagram size={20} className="w-8 h-8 mr-4 rounded-full hover:cursor-pointer hover:opacity-75"/>
+        <Instagram size={15} className="w-6 h-6 mr-4 hover:cursor-pointer hover:opacity-50"/>
       </a>
       
       <a href={youtubeLink} target="_blank">
-        <Youtube size={20}  className="w-8 h-8 mr-4  rounded-full hover:cursor-pointer hover:opacity-75"/>
+        <Youtube size={15}  className="w-6 h-6 mr-4  hover:cursor-pointer hover:opacity-50"/>
       </a>
 
       <a href={githubLink} target="_blank">
-        <Github size={20}  className="w-8 h-8 mr-4 rounded-full hover:cursor-pointer hover:opacity-75"/>
+        <Github size={15}  className="w-6 h-6 mr-4 hover:cursor-pointer hover:opacity-50"/>
       </a>
       
       <a href={linkedinLink} target="_blank">
-        <Linkedin size={20}  className="w-8 h-8 rounded-full hover:cursor-pointer hover:opacity-75"/>
+        <Linkedin size={15}  className="w-6 h-6 hover:cursor-pointer hover:opacity-50"/>
       </a>
     </div>
   );

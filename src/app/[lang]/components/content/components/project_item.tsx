@@ -14,12 +14,12 @@ export default function ProjectItem(params : ProjectItemProps) {
     <div className="flex flex-col w-full rounded-lg items-start justify-start mt-20">
       <div className="flex flex-col items-center w-full">   
 
-        <div className="flex flex-col ml-5 items-center w-4/5 justify-center">
-          <div className="flex flex-row w-full justify-between items-center">
+        <div className="flex flex-col ml-5 items-center w-4/5">
+          <div className="flex flex-row w-full justify-between items-start">
             <p className="mb-5 font-semibold">{params.title}</p>
             
             <a href={params.link} target="_blank" className="hover:opacity-60">
-              <GithubIcon size={18} className="-mt-6" />
+              <GithubIcon size={18} className="w-5 h-5 mt-1" />
             </a>
           </div>
 
