@@ -13,7 +13,7 @@ interface EducationProps {
   const dict = getDictionaryUseClient(lang);
 
     return(
-        <div className="flex flex-col  mt-44 items-start">
+        <div className="flex flex-col  mt-20 items-start">
 
 
             <EducationItem 

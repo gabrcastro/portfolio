@@ -1,4 +1,4 @@
-import {AiOutlineInstagram, AiOutlineYoutube, AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import { Github, Instagram, Linkedin, Youtube } from "lucide-react";
 
 export default function Social() {
 
@@ -10,19 +10,19 @@ export default function Social() {
   return(
     <div className="flex flex-row justify-between items-center">
       <a href={instagramLink} target="_blank">
-        <AiOutlineInstagram className="w-8 h-8 mr-4 rounded-full hover:cursor-pointer hover:opacity-75"/>
+        <Instagram size={20} className="w-8 h-8 mr-4 rounded-full hover:cursor-pointer hover:opacity-75"/>
       </a>
       
       <a href={youtubeLink} target="_blank">
-        <AiOutlineYoutube className="w-8 h-8 mr-4  rounded-full hover:cursor-pointer hover:opacity-75"/>
+        <Youtube size={20}  className="w-8 h-8 mr-4  rounded-full hover:cursor-pointer hover:opacity-75"/>
       </a>
 
       <a href={githubLink} target="_blank">
-        <AiOutlineGithub className="w-8 h-8 mr-4 rounded-full hover:cursor-pointer hover:opacity-75"/>
+        <Github size={20}  className="w-8 h-8 mr-4 rounded-full hover:cursor-pointer hover:opacity-75"/>
       </a>
       
       <a href={linkedinLink} target="_blank">
-        <AiOutlineLinkedin className="w-8 h-8 rounded-full hover:cursor-pointer hover:opacity-75"/>
+        <Linkedin size={20}  className="w-8 h-8 rounded-full hover:cursor-pointer hover:opacity-75"/>
       </a>
     </div>
   );

@@ -13,7 +13,7 @@ const Experiences: React.FC<ExperiencesProps> = ({ lang }) => {
     const dict = getDictionaryUseClient(lang)
 
     return (
-       <div className="w-full h-full flex flex-col  mt-44 items-start overflow-y-auto">
+       <div className="w-full h-full flex flex-col mt-20 items-start overflow-y-auto">
 
             <ExperienceItem 
                 company={dict.experiences.current.company}

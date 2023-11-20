@@ -1,0 +1,5 @@
+{
+  "i18n-ally.localesPaths": [
+    "src/app/[lang]/components/languages"
+  ]
+}

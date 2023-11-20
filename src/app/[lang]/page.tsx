@@ -15,16 +15,26 @@ const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] });
 export default function Home({ params }: { params: { lang: Locale } }) {
   return (
     <Provider store={store}>
-      <main className={sourceCodePro.className}>
-        <div className="flex w-screen h-screen flex-row justify-between bg-gradient-to-tr from-gray-950 from-60% to-indigo-950 via-30% bg-opacity-50 overflow-y-hidden">
-          <div className="w-2/5">
-            <Header params={{ lang: params.lang as "en-US" | "pt-BR" }} />
-          </div>
-          <div className="w-3/5">
-            <Content language={params.lang}/>
-          </div>
-        </div>
-      </main>
-    </Provider>
+    <div className="flex w-screen h-screen flex-row justify-between bg-gradient-to-bl from-[#18153d] from-5% via-[#030712] to-[#030712] to-50% bg-opacity-50 overflow-y-hidden">
+      <div className="w-2/5">
+        <Header params={{ lang: params.lang as "en-US" | "pt-BR" }} />
+      </div>
+      <div className="w-3/5">
+        <Content language={params.lang} />
+      </div>
+    </div>
+  </Provider>
+    // <Provider store={store}>
+    //   <main className={sourceCodePro.className}>
+    //     <div className="flex w-screen h-screen flex-row justify-between bg-gradient-to-tr from-gray-950 from-60% to-indigo-950 via-30% bg-opacity-50 overflow-y-hidden">
+    //       <div className="w-2/5">
+    //         <Header params={{ lang: params.lang as "en-US" | "pt-BR" }} />
+    //       </div>
+    //       <div className="w-3/5">
+    //         <Content language={params.lang}/>
+    //       </div>
+    //     </div>
+    //   </main>
+    // </Provider>
   );
 }

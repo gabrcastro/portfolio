@@ -86,7 +86,13 @@ export const ptBR = {
     },
   },
 
-  projects: {
-    empty: "EM DESENVOLVIMENTO",
-  },
+  projects: [
+    {
+      title: "Portfolio VS Code",
+      skills: ["NextJS", "Redux", "TailwindCSS", "Typescript"],
+      description:
+        "Portfolio estilo VS Code, desenvolvido para práticar criatividade.",
+      link: "https://github.com/gabrcastro/gabrielcastro_vscode",
+    },
+  ],
 };

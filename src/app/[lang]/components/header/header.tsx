@@ -18,11 +18,11 @@ export default function Header({params} : { params: { lang: Locale } }) {
         <div className="flex flex-col">
           <p className="font-light text-base text-gray-50 mb-3">{dict.header.greetings}</p>
 
-          <h1 className="font-semibold text-5xl text-gray-50 mb-1">
+          <h1 className="font-semibold text-4xl text-gray-50 mb-1">
             {dict.site.name}
           </h1>
 
-          <p className="font-light text-xl text-gray-50">{dict.header.position}</p>
+          <p className="font-light text-lg text-gray-50">{dict.header.position}</p>
 
         </div>
 
